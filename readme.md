@@ -1,3 +1,4 @@
+course - https://react-v8.holt.courses/
 app version based on intro to react context 14
 
 ### random
@@ -20,5 +21,9 @@ valueL ?? valueR - if valueL evaluated to null/undefined then return valueR
 
 # bug examples from this app
 
+# Testing where if something is given a value, does it return the correct value
+
 1. `images.length` will fail if no array is passed in. changed to `images && images.length`
 2. useHref() may be used only in the context of a <Router> component. Using <Link> tag without a router. Put static router in test file. (Static router works in node and not a browser env)
+
+# testing user interaction
